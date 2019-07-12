@@ -80,3 +80,29 @@ if ((b >= a && c <= a) || (b <= a && c >= a) 설명
 
 첫 번째 if가 성립하지 않는 경우 두 번째 if에서도 같은 판단을 하므로 이 알고리즘은 효율적이지는 않습니다. -> b>=a를 했음에도 이후에 a >b를 한번 더 따져주기 때문에 비효율적이다.
 
+
+
+[Q6]
+
+```
+#include <stdio.h>
+
+int main(void){
+int n = 5;
+int i = 1;
+int sum = 0;
+while (i <= n){
+	sum += i;
+	i++;
+}
+printf("%d",sum);
+printf("%d",i);
+
+return 0;
+}
+```
+
+
+
+
+
