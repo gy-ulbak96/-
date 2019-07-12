@@ -53,7 +53,7 @@ if (a >= b)
 	else
 		return c;
 else if (a < c)
-	return c;
+	return c
 else if (b < c)
 	return b;
 else
@@ -75,4 +75,7 @@ return 0;
 [Q5]
 
 if ((b >= a && c <= a) || (b <= a && c >= a) 설명
-여기서 (b >= a 및 b <= a)의 판단을 거꾸로 뒤집은 판단이 다음 else 이후에 else if ((a > b && c < b) || (a < b && c > b)라는 식으로 이어집니다.첫 번째 if가 성립하지 않는 경우 두 번째 if에서도 같은 판단을 하므로 이 알고리즘은 효율적이지는 않습니다.
+
+여기서 (b >= a 및 b <= a)의 판단을 거꾸로 뒤집은 판단이 다음 else 이후에 else if ((a > b && c < b) || (a < b && c > b)라는 식으로 이어집니다.  
+
+첫 번째 if가 성립하지 않는 경우 두 번째 if에서도 같은 판단을 하므로 이 알고리즘은 효율적이지는 않습니다.
